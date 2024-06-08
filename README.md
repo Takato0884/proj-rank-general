@@ -27,6 +27,9 @@ with open("C:\\Users\\hayas\\proj-rank-general\\git\\output\\ret\\20240603\\{}.p
 logging.basicConfig(filename="C:\\Users\\hayas\\proj-rank-general\\git\\output\\log\\20240603\\rank_sample_seq.log", level=logging.INFO)
 ```
 
+2. Run training notebook<br>
+`train/20240603/rank_sample_seq.ipynb`
+
 # Task Settings
 The task is intended to rank each perceiver's subjective ratings for the five stimuli. For more information on this task, we recommend referring to Section IV-A in this [paper](https://ieeexplore.ieee.org/document/10158500).
 
