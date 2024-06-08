@@ -6,6 +6,7 @@ This project demonstrates the use of a ranknet model and regression model. It in
 
 # Usage Instructions
 1. Change path<br>
+train/20240603/rank_sample_seq.ipynb: In [3]
 ```train/20240603/rank_sample_seq.ipynb: In [3]
 sys.path.append("C:\\Users\\hayas\\proj-rank-general\\git\\code\\ranknet_seq\\")
 with open('c:\\Users\\hayas\\proj-rank-general\\git\\data\\features_dict_seq.pkl', 'rb') as p:
@@ -14,11 +15,13 @@ with open('c:\\Users\\hayas\\proj-rank-general\\git\\data\\lopocv_dict.pkl', 'rb
     lopocv_dict = pickle.load(p)
 ```
 
+train/20240603/rank_sample_seq.ipynb:In [5]
 ```train/20240603/rank_sample_seq.ipynb:In [5]
 with open("C:\\Users\\hayas\\proj-rank-general\\git\\output\\ret\\20240603\\{}.pickle".format(file_name), mode="wb") as f:
       pickle.dump(return_dict, f)
 ```
 
+code/ranknet_seq/utils.py: line 7
 ```code/ranknet_seq/utils.py: line 7
 logging.basicConfig(filename="C:\\Users\\hayas\\proj-rank-general\\git\\output\\log\\20240603\\rank_sample_seq.log", level=logging.INFO)
 ```
