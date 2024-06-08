@@ -32,7 +32,7 @@ logging.basicConfig(filename="C:\\Users\\hayas\\proj-rank-general\\git\\output\\
 `train/20240603/rank_sample_seq.ipynb`
 
 # Task Settings
-The task is intended to rank each perceiver's subjective ratings for the five stimuli. For more information on this task, we recommend referring to Section IV-A in this [paper](https://ieeexplore.ieee.org/document/10158500).
+The task is intended to rank each perceiver's subjective ratings for the five stimuli. For more information on this task, we recommend referring to Section IV-A in [this paper](https://ieeexplore.ieee.org/document/10158500).
 
 # Dataset
 This is a toy dataset. The dataset is stored in dictionary format.<br>
@@ -52,4 +52,4 @@ Training file is Jupyter notebook format.<br>
 `train/20240603/regression_sample_seq.ipynb`: Training notebook for sequential features using regression.<br>
 `train/20240603/regression_sample_nonseq.ipynb`: Training notebook for non-sequential features using regression.<br>
 
-About `margin` parameter of ranknet, we recommend referring to Section V-E in this [paper](https://ieeexplore.ieee.org/document/10158500).
+About `margin` parameter of ranknet, we recommend referring to Section V-E in [this paper](https://ieeexplore.ieee.org/document/10158500).
