@@ -28,6 +28,7 @@ logging.basicConfig(filename="C:\\Users\\hayas\\proj-rank-general\\git\\output\\
 ```
 
 2. Run training notebook<br>
+
 `train/20240603/rank_sample_seq.ipynb`
 
 # Task Settings
